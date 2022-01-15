@@ -1,13 +1,10 @@
-                              Asciiquarium v1.1
-                    by Kirk Baucom <kbaucom@schizoid.com>
-                          http://www.robobunny.com
+asciitrek is a fork of asciiquarium, replacing the aquatic theme of the original with a space and scifi theme
 
-Asciiquarium is an aquarium/sea animation in ASCII art.
 
 Installation
 ------------
 
-Asciiquarium is a single perl script, so all you have to do is make sure
+Asciitrek is a single perl script, so all you have to do is make sure
 it's executable and put it somewhere convenient, like /usr/local/bin or
 /usr/local/games.
 
@@ -45,14 +42,3 @@ While running:
 	q	quit
 	r	redraw (will recreate all entities)
 	p	toggle pause
-
-Contributors
-------------
-
-New fish species backported from the Android live wallpaper and
-other minor improvements by Claudio Matsuoka.
-
-Pretty much all of the ASCII art was done by Joan Stark:
-http://www.geocities.com/SoHo/7373/
-
-Anything that she didn't do, I don't have a source for.
