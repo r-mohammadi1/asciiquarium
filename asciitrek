@@ -51,8 +51,6 @@ if ($opt_c) {			# 'classic' mode
 	$new_fish = 0;
 }
 
-my @random_objects = init_random_objects();
-
 # the Z depth at which certain items occur
 my %depth = (
 	# no gui yet
@@ -245,8 +243,6 @@ sub add_fish_entity {
 		position	=> [ 0, 0, $depth ],
 		callback	=> \&fish_callback,
 		callback_args	=> [ $speed, 0, 0 ],
-		die_offscreen	=> 1,
-		death_cb	=> \&add_fish,
 		physical	=> 1,
 		coll_handler	=> \&fish_collision,
 	);
